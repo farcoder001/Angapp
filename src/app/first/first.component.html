@@ -1,0 +1,9 @@
+<h3>my name is : {{ name }}</h3>
+
+<div [style.backgroundColor]="bgcolor">tek-up</div>
+
+<button (click)="changecolor()" class="btn btn-primary">change color</button>
+<br>
+<input [(ngModel)]="name" type="text" class="form-control">
+
+<button (click)="EmitEvt()" class="btn btn-warning">send Msg To parent</button>
